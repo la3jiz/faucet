@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "addFunds",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_withdrawAmount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/IFaucet.sol": "IFaucet"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/IFaucet.sol": {
+			"keccak256": "0xb2958f52618c91609b61cd841be3896d097bf500c5bbb740b1240c8d382b5cf5",
+			"license": "SEE LICENSE IN LICENSE",
+			"urls": [
+				"bzz-raw://35e7d5cd056d8f549c8623f48d5e8a8d0fcc8472049fdbaff2fe5ea7d39ce520",
+				"dweb:/ipfs/QmSvMa8ovgd4AQNtnqWuagWCmxjDM8dCigtGnEzK48WK3C"
+			]
+		}
+	},
+	"version": 1
+}
